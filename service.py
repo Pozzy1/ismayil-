@@ -59,3 +59,4 @@ def reset_base():
     cur.close()
     conn.close()
     return {"msg":"all user is deleted"}
+

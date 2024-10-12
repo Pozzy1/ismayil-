@@ -3,3 +3,4 @@ venv
 .env
 isi.py
 isco.py
+settings.py
