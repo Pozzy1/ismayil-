@@ -1,2 +1,1 @@
-# fastapi-crad
-# ismayil-
+# fastapi-crud

@@ -1,36 +1,19 @@
 from pydantic import BaseModel
 
-
-class UserCreateSchema(BaseModel):
+class Usercreateshcema(BaseModel):
     username:str
-    password: str
+    password:str
     class Config:
-        extra = "forbid"
+        extra="forbid"
 
-
-
-class UserDeleteSchema(BaseModel):
-    username: str
-    
+class Userdeletescheme(BaseModel):
+    username:str
     class Config:
-        extra = "forbid"
+        extra="forbid"
 
 
-
-class UserGetSchema(BaseModel):
-    username: str
-    
+class userchangescheme(BaseModel):
+    password:str
+    new_password:str
     class Config:
-        extra = "forbid"
-
-
-class UserUpdateSchema(BaseModel):
-    new_username:str
-    password: str
-
-    class Config:
-        extra = "forbid" 
-
-
-
-
+        extra="forbid"
